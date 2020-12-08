@@ -87,7 +87,7 @@ public class ContactForm extends FormLayout {
             Notification.show(msg, Type.TRAY_NOTIFICATION);
             getUI().refreshContacts();
         } catch (FieldGroup.CommitException e) {
-            // Validation exceptions could be shown here
+            // Validation exceptions could be shown here.
         }
     }
 
